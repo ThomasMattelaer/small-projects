@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272D3A; 
+    margin: 100px auto; 
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.left-panel{
+height: 100%;
+width:50%; 
+border-radius: 10px;
+transition:0.5s;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+transform: perspective(1000px);
+
+}
+
+.left-panel:hover{
+transform: scale(2.5);
+transform-origin: center;
+transform: perspective(1000px) rotateY(10deg)
+}
+
+.icon {
+    background-image: url('images/12.png');
+    height: 20px;
+    width: 20px;
+    display: block;
+    /* Other styles here */
+}
+
+.right-panel{
+    height: 98%;
+    width: 65%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #272D3A;
+}
+body{
+    background-color: #48565F;
+}
